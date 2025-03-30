@@ -1,0 +1,28 @@
+
+
+A)Los constructores son métodos, que nos sirven para inicializar atributos antes de su uso, es decir, preparan los objetos para su uso.
+
+B)Cuando asignamos c2 a circulo, y le damos el valor de 6.55.
+
+C) Los atributos son privados para evitar que puedan ser modificados afuera de la clase. Mientras que los métodos son públicos para que otras clases puedan usarlos. 
+
+D) No podrías, porque primero tienes que llamar a la clase Circulo.
+
+E) No podrías, puesto a que el area del circulo no es una variable, es un método que se consigue en operaciones dentro del mismo. 
+
+F) El error consiste en que radio tiene acceso privado, y la linea de código trata de acceder directamente al atributo privado.
+
+G)El error otra vez consiste en el acceso al atributo, puesto a que este acceso es privado y la linea de código trata de acceder a el directamente. 
+
+H)Con la linea "Circulo c2 = new Circulo(6.55)" nosotros modificamos el valor del atributo. 
+
+J)"This" se usa para hacer referencia a la variable de la instancia actual. 
+
+K)El método sirve para convertir un objeto o valor a una cadena.
+
+I) 
+public String toString() { 
+  return "Círculo { Radio = " + radio + ", Color = " + color + ", Área = " + getArea() + " }";
+    }
+
+
